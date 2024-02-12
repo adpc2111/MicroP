@@ -121,7 +121,7 @@ function turnos(){
         let b = document.getElementById('b')
         b.disabled = true
         setTimeout(function() {
-            window.location.href = "./Juego.html"; 
+            window.location.href = "./index.html"; 
         }, 5000);
     }
 }
