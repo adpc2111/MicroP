@@ -1,0 +1,82 @@
+h1{
+    text-align: center;
+    border: 2px solid;
+    border-radius: 3px;
+
+}
+body{
+    background-color: black;
+    color: white;
+   
+}
+.button3{
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+    width: 100%;
+}
+table,td{
+    border: 2px solid white;
+    font-size: 2em;
+}
+h2{
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 0;
+}
+.bingo1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.carton{
+    margin-left: 35px;
+    margin-right: 35px;
+    
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    
+}
+.button1{
+    margin-bottom: 1.5em;
+    margin-top: 1.5em;
+}
+
+
+@media screen and (max-width:600px) {
+    body{
+        font-size: 0.8em;
+    }
+    .bingo1{
+        display: flex ;
+        flex-direction: column;
+        align-items: center;
+    }
+    h2{
+        text-align: center;
+        font-size: 1.2em;
+    }
+    h3,table{
+        text-align: center;
+        font-size: 1em;
+    }
+
+    button{
+        display: flex;
+    }
+
+    p{
+        display: flex;
+        justify-content: center;
+    }
+   
+}
+#p{
+    font-size: 1.2em;
+    padding-left: 4px;
+}

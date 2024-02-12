@@ -1,0 +1,129 @@
+.clasePadreTitulo{
+    box-sizing: border-box;
+    font-size: 1.2em;
+    border-radius: 1em;
+    width: 100%;
+    position: relative;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    margin-top: 0.5em;
+
+}
+.secction-1Titulo{
+    background-color: rgb(231, 235, 7) ;
+    color: black;
+    border-radius: 0.8em;
+    position: relative;
+    margin: 1em;
+    border: 0.2em solid white;
+    text-align: center;
+}
+.clasePadreSeccion1{
+    color: white;
+    text-align: center;
+}
+.clasePadreJugadores{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%; /* Ancho del campo de entrada al 100% del contenedor */
+    padding: 10px;
+    font-size: 1em; /* Tamaño de fuente relativo */
+    font-family: 'courier';
+    
+}
+.claseHijoSeccion1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%; /* Ancho del campo de entrada al 100% del contenedor */
+    padding: 10px;
+}
+.button1{
+    width: 12em;
+    margin-right: 2em;
+}
+
+.jugadores{
+    width: 12em;
+}
+
+body{
+    background-color: black;
+    font-family: 'courier';
+    color: white;
+   
+}
+@media screen and (max-width:1020px) {
+    input{
+        margin: 10px auto;
+        }
+
+    }
+@media screen and (max-width:600px) {
+    .clasePadreJugadores{
+        display: flex ;
+        flex-direction: column;
+        align-items: center;
+    }
+    .clasePadreSeccion1{
+        display: flex ;
+        flex-direction: column;
+        align-items: center;
+        
+
+    }
+    .claseHijoSeccion1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%; /* Ancho del campo de entrada al 100% del contenedor */
+        padding: 10px;
+    }
+    .button1:first-child{
+        width: 12em;
+        margin-bottom: 1.2em;
+    }
+    .button1:last-child{
+        width: 12em;
+        margin-top: 1.2em;
+    }
+    
+    }
+button:active {
+    color: white;
+}
+button:hover{
+    background-color: gray;
+    border: 2px solid white ;
+}
+button{
+    border: 2px solid red;
+    font-family: 'courier';
+    border-radius: 6px;
+}
+.button2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%; /* Ancho del campo de entrada al 100% del contenedor */
+    padding: 1px;
+}
+.button2_2{
+    width: 12em;
+    height: 3em;
+    font-size: 1em;
+    margin-top: 3em;
+
+}
+h2{
+    text-align: center;
+    margin-top: 2em;
+}
+table,td{
+    border: 2px solid white;
+    margin : 0 auto;
+    
+}
+    

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MicroProyecto</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <section class="clasePadreTitulo">
+        <div class="secction-1Titulo">
+            <h1>BINGO</h1>
+        </div>
+    </section>
+    <div class="clasePadreSeccion1">
+        <p>INGRESE EL TAMAÑO DEL CARTÓN</p>
+    </div>
+    <section class="claseHijoSeccion1">
+        <button onclick="guardarValor(3)" class="button1" id="1" >3X3</button>
+        <button onclick="guardarValor(4)" class="button1" id="2">4X4</button>
+        <button onclick="guardarValor(5)"class="button1" id="3">5X5</button>
+    </section>
+    <div class="jugador" style="text-align: center; color: white;">
+        <p>INGRESE EL NOMBRE DE LOS JUGADORES.</p>
+    </div>
+    <section class="clasePadreJugadores">
+        <div class="jugadores">
+            <input id="j1" type="text" value="JUGADOR 1">
+        </div>
+        <div class="jugadores">
+            <input id="j2" type="text" value="JUGADOR 2">
+        </div>
+        <div class="jugadores">
+            <input id="j3" type="text" value="JUGADOR 3">
+        </div>
+        <div class="jugadores">
+            <input id="j4" type="text" value="JUGADOR 4">
+        </div>
+    </section>
+    <div class="button2">
+        <button onclick="guardarNombres(),guardarTablaEnLocalStorage()" class="button2_2">JUGAR</button></a>
+    </div>
+    <H2>ESTADISTICAS</H2>
+    <section id="tablaContenedor"class="estadisticas">
+        <table id="tabla">
+            <tr>
+                <td><b>JUGADORES</b></td>
+                <td><b>VICTORIAS</b></td>
+            </tr>
+        </table>
+    </section>
+ <script src="./functions.js"></script>
+ <script src="./functions2.js"></script>
+    
+</body>
+</html>

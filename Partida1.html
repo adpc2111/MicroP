@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style2.css">
+</head>
+<body>
+    <h1>
+        <b>PARTIDA EN CURSO</b>
+    </h1>
+    <h2 id="tablero1"> TABLERO </h2>
+    <section class="bingo1">
+        <div class="letras">
+            <h3>TURNOS REALIZADOS</h3>
+            <P id="turnos"><b>0</b></P>
+            <h3>NÚMERO ALEATORIO</h3>
+            <p id="aleatorio"><b></b></p>
+        </div>
+        <div class="carton">
+        
+            <h2>BINGO 🎱</h2>
+            <table id="matriz">
+            </table>
+            </div>
+
+            <div class="buttons">
+                <h3>JUGADORES</h3>
+                <div>
+                <button id="b1">JUGADOR 1</button>
+                <button id="b2" class="button1">JUGADOR 2</button>
+                <button id="b3">JUGADOR 3</button>
+                <button id="b4" class="button1">JUGADOR 4</button>
+                
+            </div>
+            <h1 id="p">PUNTUACION</h1>
+                <p id="p1">PUNTUACION </p>
+                <p id="p2">PUNTUACION </p>
+                <p id="p3">PUNTUACION </p>
+                <p id="p4">PUNTUACION </p>
+                
+            </div>
+    </section>
+    <div class="button3">
+        <button id="b" onclick = generarNumeroAleatorio(),turnos()>GENERAR</button>
+    </div>
+    <div>
+        <a href="./Juego.html"><button>VOLVER</button></a>
+    </div>
+    <p>* Si sale un numero en su carton toque su usuario para refrescar el cartón  <br><br>* Para un funcionamiento correcto del programa debe verificar que todos los cartones se hayan generado con exito antes de generar un número aleatorio</p>
+</p>
+    <br>
+    <script src="./functions.js"></script>
+</body>
+</html>
